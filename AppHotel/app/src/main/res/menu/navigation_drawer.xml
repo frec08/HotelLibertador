@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/main_item"
+        android:title="Hotel">
+        <menu>
+            <item
+                android:id="@+id/nosotros_item"
+                android:icon="@drawable/ic_nosotros"
+                android:title="Nosotros"
+                android:checkable="true"/>
+            <item
+                android:id="@+id/terminos_item"
+                android:icon="@drawable/ic_terminos"
+                android:title="Terminos y Condiciones"
+                android:checkable="true"/>
+        </menu>
+    </item>
+
+</menu>
